@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -O0 -g -rdynamic CMakeFiles/cpp_template.dir/debug.cpp.o -o ../../bin/cpp_template   -L/home/dora/Codes/AccelerateCpp/ch04/lib 

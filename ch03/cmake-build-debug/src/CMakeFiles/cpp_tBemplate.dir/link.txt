@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -O2 -g -rdynamic CMakeFiles/cpp_tBemplate.dir/main.cpp.o -o ../../bin/cpp_tBemplate   -L/home/dora/CLionProjects/ch03/lib 

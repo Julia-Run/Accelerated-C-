@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -O2 -g -rdynamic CMakeFiles/ch02.dir/main.cpp.o -o ../../bin/ch02   -L/home/dora/ClionProjects/ch02/lib 
