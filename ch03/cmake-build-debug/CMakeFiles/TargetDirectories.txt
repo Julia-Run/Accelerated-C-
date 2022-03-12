@@ -1,5 +1,5 @@
-/home/dora/CLionProjects/ch03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dora/CLionProjects/ch03/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dora/CLionProjects/ch03/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
-/home/dora/CLionProjects/ch03/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/dora/CLionProjects/ch03/cmake-build-debug/src/CMakeFiles/cpp_template.dir
+/home/dora/Codes/Accelerated-Cpp/ch03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dora/Codes/Accelerated-Cpp/ch03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dora/Codes/Accelerated-Cpp/ch03/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/dora/Codes/Accelerated-Cpp/ch03/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/dora/Codes/Accelerated-Cpp/ch03/cmake-build-debug/src/CMakeFiles/cpp_template.dir

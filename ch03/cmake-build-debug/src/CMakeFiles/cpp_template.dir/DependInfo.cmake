@@ -4,11 +4,21 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/dora/Codes/Accelerated-Cpp/ch03/src/main.cpp" "/home/dora/Codes/Accelerated-Cpp/ch03/cmake-build-debug/src/CMakeFiles/cpp_template.dir/main.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dora/CLionProjects/ch03/src/main.cpp" "src/CMakeFiles/cpp_template.dir/main.cpp.o" "gcc" "src/CMakeFiles/cpp_template.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

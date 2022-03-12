@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/dora/CLionProjects/ch03/bin/cpp_template"
+			"path" : "/home/dora/Codes/Accelerated-Cpp/ch03/bin/cpp_template"
 		}
 	],
 	"backtrace" : 1,
@@ -60,7 +60,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/dora/CLionProjects/ch03/include"
+					"path" : "/home/dora/Codes/Accelerated-Cpp/ch03/include"
 				}
 			],
 			"language" : "CXX",
@@ -85,7 +85,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-L/home/dora/CLionProjects/ch03/lib",
+				"fragment" : "-L/home/dora/Codes/Accelerated-Cpp/ch03/lib",
 				"role" : "libraryPath"
 			}
 		],

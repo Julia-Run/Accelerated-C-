@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dora/CLionProjects/ch03/cmake-build-debug"
+			"value" : "/home/dora/Codes/Accelerated-Cpp/ch03/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "21"
+			"value" : "20"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_CODEBLOCKS_COMPILER_ID",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/180/bin/cmake/linux/bin/cmake"
+			"value" : "/home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -167,7 +167,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/180/bin/cmake/linux/bin/cpack"
+			"value" : "/home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/180/bin/cmake/linux/bin/ctest"
+			"value" : "/home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -438,6 +438,18 @@
 			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
+			"name" : "CMAKE_DEPENDS_USE_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "FALSE"
+		},
+		{
 			"name" : "CMAKE_DLLTOOL",
 			"properties" : 
 			[
@@ -679,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dora/CLionProjects/ch03"
+			"value" : "/home/dora/Codes/Accelerated-Cpp/ch03"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -967,7 +979,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/180/bin/cmake/linux/share/cmake-3.21"
+			"value" : "/home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/share/cmake-3.20"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1238,42 +1250,6 @@
 			"value" : "/usr/sbin/sysctl"
 		},
 		{
-			"name" : "cpp_tBemplate_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/dora/CLionProjects/ch03/cmake-build-debug"
-		},
-		{
-			"name" : "cpp_tBemplate_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "cpp_tBemplate_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/dora/CLionProjects/ch03"
-		},
-		{
 			"name" : "cpp_template_BINARY_DIR",
 			"properties" : 
 			[
@@ -1283,19 +1259,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dora/CLionProjects/ch03/cmake-build-debug"
-		},
-		{
-			"name" : "cpp_template_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
+			"value" : "/home/dora/Codes/Accelerated-Cpp/ch03/cmake-build-debug"
 		},
 		{
 			"name" : "cpp_template_SOURCE_DIR",
@@ -1307,7 +1271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dora/CLionProjects/ch03"
+			"value" : "/home/dora/Codes/Accelerated-Cpp/ch03"
 		}
 	],
 	"kind" : "cache",
