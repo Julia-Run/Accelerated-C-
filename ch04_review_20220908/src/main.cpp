@@ -15,10 +15,12 @@ int main(int argc, char **argv) {
     Student_info one;
     vector<Student_info> all;
     string::size_type maxL = 0;
+    cout << " t1" << endl ;
     while(read(cin, one)){
         all.push_back(one);
         maxL = max(maxL, one.name.size());
     }
+    cout << " t2" << endl ;
     sort(all.begin(), all.end(), compare);
     for (auto a : all){
         cout << a.name << string(maxL + 2 - a.name.size(), ' ');

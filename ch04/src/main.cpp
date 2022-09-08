@@ -17,12 +17,14 @@ int main() {
     student_info oneStudent;
     vector<student_info> students;
     string::size_type maxlength = 0; //longest name size;
+    cout << "test1" << endl;
     while (read_inf(cin, oneStudent)) {
         maxlength = max(maxlength, oneStudent.name.size());
         students.push_back(oneStudent);
+//        cout << "test2" << endl;
     }
     sort(students.begin(), students.end(), compare);  //students sort by name;
-    cout << "Please input:" << endl;
+    cout << "test3" << endl;
     // we can start output
     for (auto & student : students) {
         //for (vector<student_info>::size_type i = 0; i != students.size(); i++) {

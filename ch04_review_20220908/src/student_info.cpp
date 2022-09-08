@@ -17,8 +17,8 @@ istream &read_hw(istream &is, vector<double> &hw){
         hw.clear();
         double x;
         while(is >> x) hw.push_back(x);
+        is.clear();
     }
-    is.clear();
     return is;
 }
 

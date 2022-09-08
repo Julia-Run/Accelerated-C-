@@ -10,6 +10,7 @@
 					[
 						1
 					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "2.8"
@@ -19,6 +20,7 @@
 				},
 				{
 					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "2.8"
@@ -69,6 +71,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 2
+		"minor" : 4
 	}
 }

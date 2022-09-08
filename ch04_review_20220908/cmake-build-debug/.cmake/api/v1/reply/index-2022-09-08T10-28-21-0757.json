@@ -8,34 +8,34 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "/snap/clion/184/bin/cmake/linux/bin/cmake",
-			"cpack" : "/snap/clion/184/bin/cmake/linux/bin/cpack",
-			"ctest" : "/snap/clion/184/bin/cmake/linux/bin/ctest",
-			"root" : "/snap/clion/184/bin/cmake/linux/share/cmake-3.21"
+			"cmake" : "/snap/clion/204/bin/cmake/linux/bin/cmake",
+			"cpack" : "/snap/clion/204/bin/cmake/linux/bin/cpack",
+			"ctest" : "/snap/clion/204/bin/cmake/linux/bin/ctest",
+			"root" : "/snap/clion/204/bin/cmake/linux/share/cmake-3.23"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 21,
-			"patch" : 1,
-			"string" : "3.21.1",
+			"minor" : 23,
+			"patch" : 2,
+			"string" : "3.23.2",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-8cf2b2076458c990ae38.json",
+			"jsonFile" : "codemodel-v2-9c7123b3e5c92e85d6d8.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 3
+				"minor" : 4
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-cae44ff061af155198a3.json",
+			"jsonFile" : "cache-v2-e6f456b08c022ca2f052.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-68811b1c8420c3e08dd6.json",
+			"jsonFile" : "cmakeFiles-v1-ac81fbbb81ceac8a836d.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-cae44ff061af155198a3.json",
+			"jsonFile" : "cache-v2-e6f456b08c022ca2f052.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-68811b1c8420c3e08dd6.json",
+			"jsonFile" : "cmakeFiles-v1-ac81fbbb81ceac8a836d.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,12 +86,12 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-8cf2b2076458c990ae38.json",
+			"jsonFile" : "codemodel-v2-9c7123b3e5c92e85d6d8.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 3
+				"minor" : 4
 			}
 		},
 		"toolchains-v1" : 

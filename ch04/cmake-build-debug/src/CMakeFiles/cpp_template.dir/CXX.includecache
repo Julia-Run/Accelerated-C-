@@ -12,10 +12,6 @@ vector
 student _info.h
 ../include/student _info.h
 
-../include/median.h
-vector
--
-
 ../include/student _info.h
 string
 -
@@ -23,16 +19,6 @@ vector
 -
 iostream
 -
-
-/home/dora/Codes/Accelerated-Cpp/ch04/src/grade.cpp
-stdexcept
--
-median.h
-/home/dora/Codes/Accelerated-Cpp/ch04/src/median.h
-grade.h
-/home/dora/Codes/Accelerated-Cpp/ch04/src/grade.h
-student _info.h
-/home/dora/Codes/Accelerated-Cpp/ch04/src/student _info.h
 
 /home/dora/Codes/Accelerated-Cpp/ch04/src/main.cpp
 student _info.h
@@ -51,16 +37,4 @@ algorithm
 -
 iomanip
 -
-
-/home/dora/Codes/Accelerated-Cpp/ch04/src/median.cpp
-vector
--
-algorithm
--
-stdexcept
--
-
-/home/dora/Codes/Accelerated-Cpp/ch04/src/student_info.cpp
-student _info.h
-/home/dora/Codes/Accelerated-Cpp/ch04/src/student _info.h
 

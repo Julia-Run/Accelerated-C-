@@ -12,10 +12,6 @@ vector
 student_info.hpp
 ../include/student_info.hpp
 
-../include/medium.hpp
-vector
--
-
 ../include/student_info.hpp
 string
 -
@@ -23,16 +19,6 @@ vector
 -
 iostream
 -
-
-/home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/grade.cpp
-stdexcept
--
-medium.hpp
-/home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/medium.hpp
-grade.hpp
-/home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/grade.hpp
-student_info.hpp
-/home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/student_info.hpp
 
 /home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/main.cpp
 iostream
@@ -47,22 +33,4 @@ student_info.hpp
 /home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/student_info.hpp
 grade.hpp
 /home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/grade.hpp
-
-/home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/medium.cpp
-vector
--
-stdexcept
--
-algorithm
--
-medium.hpp
-/home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/medium.hpp
-
-/home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/student_info.cpp
-iostream
--
-vector
--
-student_info.hpp
-/home/dora/Codes/Accelerated-Cpp/ch04_review_20220908/src/student_info.hpp
 
