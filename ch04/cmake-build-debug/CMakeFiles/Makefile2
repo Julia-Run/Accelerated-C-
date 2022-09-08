@@ -54,10 +54,10 @@ RM = /home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/bin/cmak
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dora/Codes/AccelerateCpp/ch04
+CMAKE_SOURCE_DIR = /home/dora/Codes/Accelerated-Cpp/ch04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -96,14 +96,14 @@ src/clean: src/CMakeFiles/cpp_template.dir/clean
 src/CMakeFiles/cpp_template.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cpp_template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target cpp_template"
 .PHONY : src/CMakeFiles/cpp_template.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/cpp_template.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/cpp_template.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/CMakeFiles 0
 .PHONY : src/CMakeFiles/cpp_template.dir/rule
 
 # Convenience name for target.

@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dora/Codes/AccelerateCpp/ch04/src/debug.cpp" "/home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug/src/CMakeFiles/cpp_template.dir/debug.cpp.o"
+  "/home/dora/Codes/Accelerated-Cpp/ch04/src/grade.cpp" "/home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/src/CMakeFiles/cpp_template.dir/grade.cpp.o"
+  "/home/dora/Codes/Accelerated-Cpp/ch04/src/main.cpp" "/home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/src/CMakeFiles/cpp_template.dir/main.cpp.o"
+  "/home/dora/Codes/Accelerated-Cpp/ch04/src/median.cpp" "/home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/src/CMakeFiles/cpp_template.dir/median.cpp.o"
+  "/home/dora/Codes/Accelerated-Cpp/ch04/src/student_info.cpp" "/home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/src/CMakeFiles/cpp_template.dir/student_info.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

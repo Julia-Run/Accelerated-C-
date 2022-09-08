@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dora/Codes/AccelerateCpp/ch04/include
+CXX_INCLUDES = -I/home/dora/Codes/Accelerated-Cpp/ch04/include
 
 CXX_FLAGS = -std=c++11 -O0 -g
 

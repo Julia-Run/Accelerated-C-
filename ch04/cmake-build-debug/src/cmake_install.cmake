@@ -1,4 +1,4 @@
-# Install script for directory: /home/dora/Codes/AccelerateCpp/ch04/src
+# Install script for directory: /home/dora/Codes/Accelerated-Cpp/ch04/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

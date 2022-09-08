@@ -57,10 +57,10 @@ RM = /home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/bin/cmak
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dora/Codes/AccelerateCpp/ch04
+CMAKE_SOURCE_DIR = /home/dora/Codes/Accelerated-Cpp/ch04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug/CMakeFiles /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug/src//CMakeFiles/progress.marks
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug/CMakeFiles 0
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/CMakeFiles /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/src//CMakeFiles/progress.marks
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/cpp_template.dir/rule:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/cpp_template.dir/rule
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/cpp_template.dir/rule
 .PHONY : src/CMakeFiles/cpp_template.dir/rule
 
 # Convenience name for target.
@@ -127,32 +127,104 @@ cpp_template: src/CMakeFiles/cpp_template.dir/rule
 
 # fast build rule for target.
 cpp_template/fast:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/build
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/build
 .PHONY : cpp_template/fast
 
-debug.o: debug.cpp.o
-.PHONY : debug.o
+grade.o: grade.cpp.o
+.PHONY : grade.o
 
 # target to build an object file
-debug.cpp.o:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/debug.cpp.o
-.PHONY : debug.cpp.o
+grade.cpp.o:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/grade.cpp.o
+.PHONY : grade.cpp.o
 
-debug.i: debug.cpp.i
-.PHONY : debug.i
+grade.i: grade.cpp.i
+.PHONY : grade.i
 
 # target to preprocess a source file
-debug.cpp.i:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/debug.cpp.i
-.PHONY : debug.cpp.i
+grade.cpp.i:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/grade.cpp.i
+.PHONY : grade.cpp.i
 
-debug.s: debug.cpp.s
-.PHONY : debug.s
+grade.s: grade.cpp.s
+.PHONY : grade.s
 
 # target to generate assembly for a file
-debug.cpp.s:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/debug.cpp.s
-.PHONY : debug.cpp.s
+grade.cpp.s:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/grade.cpp.s
+.PHONY : grade.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+median.o: median.cpp.o
+.PHONY : median.o
+
+# target to build an object file
+median.cpp.o:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/median.cpp.o
+.PHONY : median.cpp.o
+
+median.i: median.cpp.i
+.PHONY : median.i
+
+# target to preprocess a source file
+median.cpp.i:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/median.cpp.i
+.PHONY : median.cpp.i
+
+median.s: median.cpp.s
+.PHONY : median.s
+
+# target to generate assembly for a file
+median.cpp.s:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/median.cpp.s
+.PHONY : median.cpp.s
+
+student_info.o: student_info.cpp.o
+.PHONY : student_info.o
+
+# target to build an object file
+student_info.cpp.o:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/student_info.cpp.o
+.PHONY : student_info.cpp.o
+
+student_info.i: student_info.cpp.i
+.PHONY : student_info.i
+
+# target to preprocess a source file
+student_info.cpp.i:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/student_info.cpp.i
+.PHONY : student_info.cpp.i
+
+student_info.s: student_info.cpp.s
+.PHONY : student_info.s
+
+# target to generate assembly for a file
+student_info.cpp.s:
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cpp_template.dir/build.make src/CMakeFiles/cpp_template.dir/student_info.cpp.s
+.PHONY : student_info.cpp.s
 
 # Help Target
 help:
@@ -163,9 +235,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_template"
-	@echo "... debug.o"
-	@echo "... debug.i"
-	@echo "... debug.s"
+	@echo "... grade.o"
+	@echo "... grade.i"
+	@echo "... grade.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... median.o"
+	@echo "... median.i"
+	@echo "... median.s"
+	@echo "... student_info.o"
+	@echo "... student_info.i"
+	@echo "... student_info.s"
 .PHONY : help
 
 
@@ -177,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dora/Codes/AccelerateCpp/ch04/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dora/Codes/Accelerated-Cpp/ch04/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
