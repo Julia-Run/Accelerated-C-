@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dora/Codes/Accelerated-Cpp/ch06/src/func_as_para.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+numeric
+-
+
