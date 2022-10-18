@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/funcs.hpp
+vector
+-
+list
+-
+string
+-
+
+/home/dora/Codes/Accelerated-Cpp/ch05/src/main.cpp
+iostream
+-
+vector
+-
+funcs.hpp
+/home/dora/Codes/Accelerated-Cpp/ch05/src/funcs.hpp
+

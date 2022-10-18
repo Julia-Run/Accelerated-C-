@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "23"
+			"value" : "20"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/204/bin/cmake/linux/bin/cmake"
+			"value" : "/home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -167,7 +167,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/204/bin/cmake/linux/bin/cpack"
+			"value" : "/home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/204/bin/cmake/linux/bin/ctest"
+			"value" : "/home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/204/bin/cmake/linux/share/cmake-3.23"
+			"value" : "/home/dora/Softwares/CLion-2021.2.4/clion-2021.2.4/bin/cmake/linux/share/cmake-3.20"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",

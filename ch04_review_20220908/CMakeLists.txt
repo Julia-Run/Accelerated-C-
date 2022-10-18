@@ -1,5 +1,7 @@
 # cmake version minimum
 cmake_minimum_required(VERSION 2.8)
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_VERSION 1)
 
 # project name
 project(cpp_template)

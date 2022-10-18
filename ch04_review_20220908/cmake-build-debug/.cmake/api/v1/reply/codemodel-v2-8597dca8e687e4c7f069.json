@@ -10,7 +10,6 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "2.8"
@@ -20,7 +19,6 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "2.8"
@@ -55,7 +53,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "cpp_template::@145eef247bfb46b6828c",
-					"jsonFile" : "target-cpp_template-Debug-cfedc7c6db42a5a0b9de.json",
+					"jsonFile" : "target-cpp_template-Debug-59f38e3a06460a966d71.json",
 					"name" : "cpp_template",
 					"projectIndex" : 0
 				}
@@ -71,6 +69,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 2
 	}
 }
