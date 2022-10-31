@@ -141,19 +141,19 @@ int main(int argc, char **argv) {
     for (auto &item: c) cout << item.first << ": " << item.second << endl;
     cout << "\n" << endl;
 
-//    cout << "-----------------------construct a table-------------------" << endl;
-//    cout << "How many lines input will you do? \n";
-//    auto table = makeTable(cin);
-//    for (auto it = table.begin(); it != table.end(); ++it) {
-//        cout << it->first << " in following line(s): ";
-//        vector<int> lines = it->second;
-//        auto st = lines.begin();
-//        cout << *st;
-//        st++;
-//        while (st != lines.end()) cout << ", " << *st, st++;
-//        cout << "\n";
-//    }
-//    cout << "\n" << endl;
+    cout << "-----------------------construct a table-------------------" << endl;
+    cout << "How many lines input will you do? \n";
+    auto table = makeTable(cin);
+    for (auto it = table.begin(); it != table.end(); ++it) {
+        cout << it->first << " in following line(s): ";
+        vector<int> lines = it->second;
+        auto st = lines.begin();
+        cout << *st;
+        st++;
+        while (st != lines.end()) cout << ", " << *st, st++;
+        cout << "\n";
+    }
+    cout << "\n" << endl;
 
     cout << "-----------------------construct a sentence-------------------" << endl;
     auto res = genSentence(constructGrammar());
