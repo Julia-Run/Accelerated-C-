@@ -1,0 +1,20 @@
+<noun> cat
+<noun> dog
+<noun> fish
+<noun> turtle
+<noun-phrase> <noun>
+<noun-phrase> <adj> <noun>
+<adj> beautiful
+<adj> cute
+<adj> smart
+<adj> green
+<loc> on the table
+<loc> on the ground
+<loc> in the water
+<loc> on the wall
+<verb> runs
+<verb> climbs
+<verb> jumps
+<verb> is flying
+<verb> is sleeping
+<sentence> The <noun-phrase> <verb> <loc>
