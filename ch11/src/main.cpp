@@ -15,6 +15,8 @@ int main(int argc, char **argv) {
     std::cout << std::endl;
     v.pushBack(16);
     v.pushBack(17);
+    v[0] = 10;
+    v[1] = 12;
     std::cout << v.size() << std::endl;
     for (auto it = v.begin(); it!=v.end(); it++) std::cout << *it << " ";
     std::cout << std::endl;
