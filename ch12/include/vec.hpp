@@ -53,19 +53,25 @@ public:
         backAdd(val);
     }
 
+//    void clear(){
+//        iterator t = data;
+//        if (data){
+//            while (t!=avail) {
+// //                it = 0;
+//                alloc.destroy(t++);
+//            }
+// //        while (it!=avail) alloc.destroy(it);
+//        }
+//        data = avail = limit = 0;
+//    }
     void clear(){
-        iterator s = data;
         if (data){
-            iterator it = data;
-            while (it!=avail) {
-                it = 0;
-                it++;
+            while (data!=avail) {
+                alloc.destroy(data++);
             }
-//        while (it!=avail) alloc.destroy(it);
         }
-        data = avail = limit = s;
+        data = avail = limit = 0;
     }
-
 
 private:
     iterator data, avail, limit;
