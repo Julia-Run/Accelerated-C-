@@ -28,7 +28,7 @@ public:
         ++*cnt;
     }
 
-    HandleCount(const T *t) : ptr(t), cnt(new std::size_t(1)) {}
+    HandleCount(T *t) : ptr(t), cnt(new std::size_t(1)) {}
 
     ~HandleCount() {
         if (--*cnt==0){
@@ -51,17 +51,17 @@ public:
         return *this;
     }
 
-    T &operator*() {
+    T &operator*() const {
         if (ptr) return *ptr;
         throw std::runtime_error("Null Object!");
     }
 
-    T *operator->() {
+    T *operator->() const{
         if (ptr) return ptr;
         throw std::runtime_error("Null Object!");
     }
 
-    operator bool() { return ptr; }
+    operator bool() const { return ptr; }
 };
 
 template <class T >

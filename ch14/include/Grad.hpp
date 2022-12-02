@@ -7,27 +7,28 @@
 
 #include "Core.hpp"
 
-class Grad: public Core{
+class Grad : public Core {
 private:
     double thesis;
 public:
-    Grad():thesis(0){}
-    Grad(const std::string &s){read(s);}
+    Grad() : thesis(0) {}
 
-    void read(const std::string &s){
+    explicit Grad(const std::string &s) : thesis(0) { read(s); }
+
+    void read(const std::string &s) override {
         auto [names, scores] = str2vec(s);
         name = names[1];
         mid = scores[0];
         final = scores[1];
         thesis = scores[2];
-        hw = std::vector<double> (scores.begin()+3, scores.end());
+        hw = std::vector<double>(scores.begin() + 3, scores.end());
     }
 
-    double grade(){
+    double grade() override {
         return std::max(Core::grade(), thesis);
     }
 
-    Grad* clone() {return  new Grad(*this); }
+    Grad *clone() override { return new Grad(*this); }
 };
 
 #endif //CPP_TEMPLATE_GRAD_HPP
